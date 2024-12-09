@@ -2,9 +2,8 @@
 
 ## Introduction
 
-In this project, we aim to analyze the relationship between greenhouse gas emis-
-sions and air quality across EU countries. The primary research goal is whether
-high levels of greenhouse gas emissions are an indicator of increased harmful
+In this project, we aim to analyze the relationship between greenhouse gas emissions and air quality across EU countries.
+The primary research goal is whether high levels of greenhouse gas emissions are an indicator of increased harmful
 gas emissions that negatively impact air quality. Additionally, we will examine
 respiratory health data to determine whether air quality can serve as a predictor
 for these conditions. To achieve this, we will categorize greenhouse emissions by
