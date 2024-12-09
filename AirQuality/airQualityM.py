@@ -195,7 +195,6 @@ class AirQualityData():
                     print(f"Caught exception while parsing air data: {e}")
 
 
-
     def parseParquetFile(self,parquetFilePath,cityName,countryCodeIso2):
         airMeasurment = pd.read_parquet(parquetFilePath)
         #filter out invalid rows
@@ -222,6 +221,7 @@ class AirQualityData():
         #fill unit if necessary
         airMeasurment['measureUnitCode'] = airMeasurment['measureUnitCode'].fillna(recommendedUnit)
         #Sanitize more
+        airMeasurment['measureUnitCode'] = airMeasurment['measureUnitCode'].replace("ugc.m-3", "ugC.m-3")
         airMeasurment = airMeasurment[airMeasurment['measureUnitCode'] != "noUnitFound"]
         airMeasurment = airMeasurment[airMeasurment['chemicalCode'] != "noChemicalFound"]
         airMeasurment = airMeasurment[airMeasurment['value'] >= 0]
