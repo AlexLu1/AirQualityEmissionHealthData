@@ -1,0 +1,659 @@
+chemicalID,name,validity,date,chemicalCode
+1,Sulphur dioxide (air),Valid,20.09.2013,SO2
+3,Strong acidity (air),Valid,20.09.2013,SA
+4,Total suspended particulates (aerosol),Valid,20.09.2013,SPM
+5,Particulate matter < 10 µm (aerosol),Valid,20.09.2013,PM10
+6,Black smoke (air),Valid,20.09.2013,BS
+7,Ozone (air),Valid,20.09.2013,O3
+8,Nitrogen dioxide (air),Valid,20.09.2013,NO2
+9,Nitrogen oxides (air),Valid,20.09.2013,NOX as NO2
+10,Carbon monoxide (air),Valid,20.09.2013,CO
+11,Hydrogen sulphide (air),Valid,20.09.2013,H2S
+12,Lead (aerosol),Valid,20.09.2013,Pb
+13,Mercury (aerosol),Valid,20.09.2013,Hg
+14,Cadmium (aerosol),Valid,20.09.2013,Cd
+15,Nickel (aerosol),Valid,20.09.2013,Ni
+16,Chromium (aerosol),Valid,20.09.2013,Cr
+17,Manganese (aerosol),Valid,20.09.2013,Mn
+18,Arsenic (aerosol),Valid,20.09.2013,As
+19,Carbon disulphide (air),Valid,20.09.2013,CS2
+20,Benzene (air),Valid,20.09.2013,C6H6
+21,Toluene (air),Valid,20.09.2013,C6H5-CH3
+22,Styrene (air),Valid,20.09.2013,C6H5-CH=CH2
+23,Acrylonitrile (air),Valid,20.09.2013,CH2=CH-CN
+24,1.3 Butadiene (air),Valid,20.09.2013,CH2=CH-CH=CH2
+25,Formaldehyde (air),Valid,20.09.2013,HCHO
+26,Trichloroethylene (air),Valid,20.09.2013,CHCl=CCl2
+27,Tetrachloroethylene (air),Valid,20.09.2013,C2Cl4
+28,Dichloromethane (air),Valid,20.09.2013,CH2Cl2
+29,Benzo(a)pyrene (precip),Valid,20.09.2013,BaP
+30,Polyaromatic hydrocarbons (air+aerosol),Valid,20.09.2013,PAH
+31,Vinyl chloride (air),Valid,20.09.2013,VC
+32,Total non-methane hydrocarbons (air),Valid,20.09.2013,THC (NM)
+33,Total volatile organic compounds (air),Valid,20.09.2013,T-VOC
+34,Peroxyacetyl nitrate (air),Valid,20.09.2013,PAN
+35,Ammonia (air),Valid,20.09.2013,NH3
+36,Wet nitrogen deposition (flux),Valid,20.09.2013,N-DEP
+37,Wet sulphur deposition (flux),Valid,20.09.2013,S-DEP
+38,Nitrogen monoxide (air),Valid,20.09.2013,NO
+39,Hydrogen chloride (air),Valid,20.09.2013,HCl
+40,Hydrogen fluoride (air),Valid,20.09.2013,HF
+41,Methane (air),Valid,20.09.2013,CH4
+42,Phenol,Valid,03.03.2020,C6H5OH
+44,Total nitrogen,Valid,11.08.2022,NT
+45,Particulate ammonium (aerosol),Valid,20.09.2013,NH4
+46,Particulate nitrate (aerosol),Valid,20.09.2013,NO3
+47,Particulate sulphate (aerosol),Valid,20.09.2013,SO4 (H2SO4 aerosols) (SO4--)
+48,Selenium (aerosol),Valid,20.09.2013,Se
+49,Vanadium (aerosol),Valid,20.09.2013,V
+50,Gaseous nitric acid (air),Valid,20.09.2013,HNO3
+51,HC C2-C6(excl. AROM. & CHLH) …,Valid,20.09.2013,HC C2-C6(excl. AROM. & CHLH)
+52,HC > C6 (excl. AROM. & CHLH) …,Valid,20.09.2013,HC > C6 (excl. AROM. & CHLH)
+53,Aromatics (except C6H6) (air),Valid,20.09.2013,Aromatics (except C6H6)
+54,Chlorinated hydrocarbons (air),Valid,20.09.2013,Chlorinated hydrocarbons
+62,Fluoride (except HF) (air),Valid,20.09.2013,Fluor (except HF)
+63,Zinc (aerosol),Valid,20.09.2013,Zn
+64,Cobalt (aerosol),Valid,20.09.2013,Co
+65,Iron (aerosol),Valid,20.09.2013,Fe
+66,Back scattering (),Valid,20.09.2013,Back scattering
+67,Total nitrate (air+aerosol),Valid,20.09.2013,HNO3+NO3
+68,Total ammonium (air+aerosol),Valid,20.09.2013,NH3+NH4
+69,Radioactivity (),Valid,20.09.2013,Radioactivity
+71,Carbon dioxide (air),Valid,20.09.2013,CO2
+73,Copper (aerosol),Valid,20.09.2013,Cu
+78,Xylene (air),Valid,20.09.2013,C6H4-(CH3)2
+80,p-Xylene (air),Valid,20.09.2013,p-C6H4(CH3)2
+81,m-Xylene (air),Valid,20.09.2013,m-C6H4-(CH3)2
+82,trans-2-Pentene (air),Valid,20.09.2013,trans-H3C-HC=CH-CH2-CH3
+83,cis-2-Pentene (air),Valid,20.09.2013,cis-H3C-HC=CH-CH2-CH3
+302,CFC_11 (air),Valid,20.09.2013,CFC-11
+303,CFC_113 (air),Valid,20.09.2013,CFC-113
+304,CFC_12 (air),Valid,20.09.2013,CFC-12
+307,HCFC_123 (air),Valid,20.09.2013,HCFC-123
+308,HCFC_22 (air),Valid,20.09.2013,HCFC-22
+309,N1methylnaphtalene (air+aerosol),Valid,20.09.2013,1-methylnaphtalene
+310,N1methylphenanthrene (air+aerosol),Valid,20.09.2013,1-methylphenanthrene
+311,N2butanone (air),Valid,20.09.2013,Methyletylketone (MEK)
+312,N2butenal (air),Valid,20.09.2013,Crotonaldehyde
+313,N2methylanthracene (air+aerosol),Valid,20.09.2013,2-methylanthracene
+314,N2methylbenzencarbaldehyde (air),Valid,20.09.2013,2-methylbenzaldehyde
+315,N2methylnaphtalene (air+aerosol),Valid,20.09.2013,2-methylnaphtalene
+316,i-Hexane (2-methylpentane) (air),Valid,20.09.2013,(CH3)2-CH-CH2-CH2-CH3
+317,N2methylphenanthrene (air+aerosol),Valid,20.09.2013,2-methylphenanthrene
+318,N2methylpropenal (air),Valid,20.09.2013,Methacroleine
+319,N2oxopropanal (air),Valid,20.09.2013,Methylglyoxal
+320,N2propenal (air),Valid,20.09.2013,Acroleine
+321,N3buten2one (air),Valid,20.09.2013,Methylvinylketone (MVK)
+322,N3methylbenzencarbaldehyde (air),Valid,20.09.2013,3-methylbenzaldehyde
+323,N3methylpentane (air),Valid,20.09.2013,3-methylpentane
+324,N4methylbenzencarbaldehyde (air),Valid,20.09.2013,4-methylbenzaldehyde
+326,NOy (air),Valid,20.09.2013,NOy
+330,PCB_105 (precip),Valid,20.09.2013,PCB-105
+333,PCB_128 (precip),Valid,20.09.2013,PCB-128
+336,PCB_149 (precip),Valid,20.09.2013,PCB-149
+339,PCB_156 (precip),Valid,20.09.2013,PCB-156
+340,PCB_177 (precip),Valid,20.09.2013,PCB-177
+341,PCB_18 (precip),Valid,20.09.2013,PCB-18
+344,PCB_26 (precip),Valid,20.09.2013,PCB-26
+347,PCB_31 (precip),Valid,20.09.2013,PCB-31
+348,PCB_44 (precip),Valid,20.09.2013,PCB-44
+351,acenaphthene (air+aerosol),Valid,20.09.2013,Acenaphthene
+352,acenaphtylene (air+aerosol),Valid,20.09.2013,Acenaphtylene
+356,aldrin (precip),Valid,20.09.2013,Aldrin
+364,anthanthrene (air+aerosol),Valid,20.09.2013,Anthanthrene
+372,Benzenecarbaldehyde (air),Valid,20.09.2013,Benzaldehyde
+373,Benzo(a)fluoranthene (air+aerosol),Valid,20.09.2013,Benzo(a)fluoranthene
+374,Tolualdehyde (air),Valid,29.03.2016,C8H8O
+380,Benzo(b+j+k)fluoranthenes (air+aerosol),Valid,20.09.2013,Benzo(b+j+k)fluoranthenes
+381,Benzo(e)pyrene (air+aerosol),Valid,20.09.2013,Benzo(e)pyrene
+382,Benzo(k+j)fluoranthene (air+aerosol),Valid,22.04.2022,Benzo(k+j)fluoranthene
+390,biphenyl (air+aerosol),Valid,20.09.2013,Biphenyl
+391,black_carbon (aerosol),Valid,20.09.2013,Black Carbon
+393,butanales (air),Valid,20.09.2013,Butanales
+394,n-Butane (air),Valid,20.09.2013,H3C-CH2-CH2-CH3
+395,butenes (air),Valid,20.09.2013,Butenes
+396,N2methylpropenal + Butanal (air),Valid,29.03.2016,Methacroleine + Butanal
+401,carbontetrachloride (air),Valid,20.09.2013,Carbon-tetrachloride
+406,chrysene (precip),Valid,20.09.2013,Chrysene
+412,conductivity (precip),Valid,20.09.2013,k
+415,coronene (air+aerosol),Valid,20.09.2013,Coronene
+416,cyclohexane (air),Valid,20.09.2013,Cyclo-hexane
+417,Cyklopenta(cd)pyrene (air+aerosol),Valid,20.09.2013,Cyklopenta(cd)pyrene
+418,Dibenzo(ac+ah)anthracenes (precip),Valid,20.09.2013,Dibenzo(ac+ah)anthracenes
+419,Dibenzo(ah)anthracene (precip),Valid,20.09.2013,Dibenzo(ah)anthracene
+420,dibenzofuran (air+aerosol),Valid,20.09.2013,Dibenzofuran
+421,dibenzothiophene (air+aerosol),Valid,20.09.2013,Dibenzothiophene
+425,dinitrogenoxide (air),Valid,20.09.2013,N2O
+426,endrin (precip),Valid,20.09.2013,Endrin
+427,ethanal (air),Valid,20.09.2013,Acetaldehyde
+428,Ethane (air),Valid,20.09.2013,C2H6
+429,ethanedial (air),Valid,20.09.2013,Glyoxal
+430,Ethene (Ethylene) (air),Valid,20.09.2013,H2C=CH2
+431,Ethyl benzene (air),Valid,20.09.2013,C6H5-C2H5
+432,Ethyne (Acetylene) (air),Valid,20.09.2013,HC=CH
+433,Ethyltoluene,Valid,29.03.2016,C9H12
+434,Propylbenzene (air),Valid,29.03.2016,C9H12
+435,fluorene (air+aerosol),Valid,20.09.2013,Fluorene
+438,halon_1211 (air),Valid,20.09.2013,Halon 1211
+439,halon_1301 (air),Valid,20.09.2013,Halon 1301
+440,heptachlor (precip),Valid,20.09.2013,Heptachlor
+441,n-Heptane (air),Valid,20.09.2013,C7H16
+442,hexanal (air),Valid,20.09.2013,n-Hexanal
+443,n-Hexane (air),Valid,20.09.2013,C6H14
+447,i-Butane (2-methylpropane) (air),Valid,20.09.2013,H3C-CH(CH3)2
+448,isoheptane (air),Valid,20.09.2013,i-Heptane
+449,"i-Octane (2,2,4-trimethylpentane) (air)",Valid,20.09.2013,(CH3)3-C-CH2-CH-(CH3)2
+450,i-Pentane (2-methylbutane) (air),Valid,20.09.2013,H3C-CH2-CH(CH3)2
+451,"Isoprene (2-methyl-1,3-butadiene) (air)",Valid,20.09.2013,CH2=CH-C(CH3)=CH2
+453,"1,4-Dichlorobenzene (air)",Valid,29.03.2016,C6H4Cl2
+454,n-Nonane (air),Valid,29.03.2016,C9H20
+455,Tetrachloroethylene (air),Valid,29.03.2016,C2Cl4
+456,Tetrachloromethane (air),Valid,16.06.2016,Tetrachloromethane (air)
+457,Chlorobenzene (air),Valid,16.06.2016,Chlorobenzene (air)
+458,"1,1,2-trichloroethane (air)",Valid,16.06.2016,"1,1,2-trichloroethane (air)"
+459,"1,1-dichloroethane (air)",Valid,16.06.2016,"1,1-dichloroethane (air)"
+460,"1,2-dichloroethylene (air)",Valid,16.06.2016,"1,2-dichloroethylene (air)"
+461,"1,2-dichloroethane (air)",Valid,16.06.2016,"1,2-dichloroethane (air)"
+462,"1,1,1-trichloroethane (air)",Valid,16.06.2016,"1,1,1-trichloroethane (air)"
+463,methylchloroform (air),Valid,20.09.2013,Methyl-chloroform
+464,"m,p-Xylene (air)",Valid,20.09.2013,"m,p-C6H4(CH3)2"
+465,naphtalene (air+aerosol),Valid,20.09.2013,Naphtalene
+466,neohexane (air),Valid,20.09.2013,Neo-hexane
+467,neopentane (air),Valid,20.09.2013,Neo-pentane
+475,n-Octane (air),Valid,20.09.2013,C8H18
+482,o-Xylene (air),Valid,20.09.2013,o-C6H4-(CH3)2
+485,pentanal (air),Valid,20.09.2013,Valeraldehyde
+486,n-Pentane (air),Valid,20.09.2013,H3C-(CH2)3-CH3
+487,pentenes (air),Valid,20.09.2013,Pentenes
+488,perylene (air+aerosol),Valid,20.09.2013,Perylene
+491,phenyletanone (air),Valid,20.09.2013,Acetophenone
+501,2-Methylpropanal (air),Valid,26.11.2019,C4H8O
+502,propanal (air),Valid,20.09.2013,Propanal
+503,Propane (air),Valid,20.09.2013,H3C-CH2-CH3
+504,propanone (air),Valid,20.09.2013,Acetone
+505,Propene (air),Valid,20.09.2013,CH2=CH-CH3
+506,Propone + Isobutane (air),Valid,29.03.2016,CH2=CH-CH3 + H3C-CH2-CH2-CH3
+507,n-Pentane + i-Pentane (2-methylbutane),Valid,29.03.2016,H3C-(CH2)3-CH3 + H3C-CH2-CH(CH3)2
+508,retene (air+aerosol),Valid,20.09.2013,Retene
+509,Propanone + N2propenal (air),Valid,29.03.2016,Acetone + Acrolein
+517,sum_PCB (precip),Valid,20.09.2013,sum-PCB
+520,sum_sulph_diox_sulphate (air+aerosol),Valid,20.09.2013,SO2 + SO4--
+601,N3methylphenanthrene (air+aerosol),Valid,20.09.2013,3-methylphenantrene
+602,N9methylphenanthrene (air+aerosol),Valid,20.09.2013,9-methylphenantrene
+604,aluminium (aerosol),Valid,20.09.2013,Al
+605,aluminium (precip),Valid,20.09.2013,Al
+606,anthracene (air+aerosol),Valid,20.09.2013,Anthracene
+607,anthracene (precip),Valid,20.09.2013,Anthracene
+608,anthracene (precip+dry_dep),Valid,20.09.2013,Anthracene
+609,Benzo(a)anthracene (air+aerosol),Valid,20.09.2013,Benzo(a)anthracene
+610,Benzo(a)anthracene (precip),Valid,20.09.2013,Benzo(a)anthracene
+611,Benzo(a)anthracene (precip+dry_dep),Valid,20.09.2013,Benzo(a)anthracene
+613,Benzo(a)fluorene (air+aerosol),Valid,20.09.2013,Benzo(a)fluorene
+616,Benzo(b)fluoranthene (air+aerosol),Valid,20.09.2013,Benzo(b)fluoranthene
+617,Benzo(b)fluoranthene (precip),Valid,20.09.2013,Benzo(b)fluoranthene
+618,Benzo(b)fluoranthene (precip+dry_dep),Valid,20.09.2013,Benzo(b)fluoranthene
+619,Benzo(b)fluorene (air+aerosol),Valid,20.09.2013,Benzo(b)fluorene
+620,Benzo(ghi)fluoranthene (air+aerosol),Valid,20.09.2013,Benzo(ghi)fluoranthene
+621,Benzo(ghi)fluoranthene (precip),Valid,20.09.2013,Benzo(ghi)fluoranthene
+622,Benzo(ghi)perylene (air+aerosol),Valid,20.09.2013,Benzo(ghi)perylene
+623,Benzo(ghi)perylene (precip),Valid,20.09.2013,Benzo(ghi)perylene
+624,Benzo(ghi)perylene (precip+dry_dep),Valid,20.09.2013,Benzo(ghi)perylene
+625,Benzo(k)fluoranthene (air+aerosol),Valid,20.09.2013,Benzo(k)fluoranthene
+626,Benzo(k)fluoranthene (precip),Valid,20.09.2013,Benzo(k)fluoranthene
+627,Benzo(k)fluoranthene (precip+dry_dep),Valid,20.09.2013,Benzo(k)fluoranthene
+629,calcium (aerosol),Valid,20.09.2013,Ca++
+630,calcium (precip),Valid,20.09.2013,Ca++
+631,chloride (aerosol),Valid,20.09.2013,Cl-
+632,chloride (precip),Valid,20.09.2013,Cl-
+633,Dibenz(ac+ah)anthracenes (air+aerosol),Valid,20.09.2013,Dibenz(ac+ah)anthracenes
+634,Dibenz(ac+ah)anthracenes (precip) - …,Deprecated - retired,20.09.2013,Dibenz(ac+ah)anthracenes
+635,Dibenz(ah)anthracene (precip) - please …,Deprecated - retired,20.09.2013,Dibenz(ah)anthracene
+636,Dibenzo(ae)pyrene (air+aerosol),Valid,20.09.2013,Dibenzo(ae)pyrene
+637,Dibenzo(ah)pyrene (air+aerosol),Valid,20.09.2013,Dibenzo(ah)pyrene
+638,Dibenzo(ai)pyrene (air+aerosol),Valid,20.09.2013,Dibenzo(ai)pyrene
+639,Dibenzo(ai)pyrene (precip),Valid,20.09.2013,Dibenzo(ai)pyrene
+640,dieldrin (air+aerosol),Valid,20.09.2013,Dieldrin
+641,dieldrin (precip),Valid,20.09.2013,Dieldrin
+643,fluoranthene (air+aerosol),Valid,20.09.2013,Fluoranthene
+644,fluoranthene (precip),Valid,20.09.2013,Fluoranthene
+645,fluoranthene (precip+dry_dep),Valid,20.09.2013,Fluoranthene
+648,acidity(H+) (precip),Valid,20.09.2013,H+
+649,HCB (air+aerosol),Valid,20.09.2013,HCB
+650,HCB (precip),Valid,20.09.2013,HCB
+652,heptachlor_epoxide (precip),Valid,20.09.2013,Heptachlor Epoxide
+653,reactive_mercury (air+aerosol),Valid,20.09.2013,Hg-reactive
+654,indeno_123cd_pyrene (air+aerosol),Valid,20.09.2013,"Indeno-(1,2,3-cd)pyrene"
+655,indeno_123cd_pyrene (precip),Valid,20.09.2013,"Indeno-(1,2,3-cd)pyrene"
+656,indeno_123cd_pyrene (precip+dry_dep),Valid,20.09.2013,"Indeno-(1,2,3-cd)pyrene"
+657,potassium (aerosol),Valid,20.09.2013,K+
+658,potassium (precip),Valid,20.09.2013,K+
+659,magnesium (aerosol),Valid,20.09.2013,Mg++
+660,magnesium (precip),Valid,20.09.2013,Mg++
+661,molybdenum (aerosol),Valid,20.09.2013,Mo
+664,ammonium (precip),Valid,20.09.2013,NH4+
+666,nitrate (precip),Valid,20.09.2013,NO3-
+667,Kjeldahl nitrogen (precip),Valid,27.03.2020,Kj-N
+668,sodium (aerosol),Valid,20.09.2013,Na+
+669,sodium (precip),Valid,20.09.2013,Na+
+670,PCB_101 (air+aerosol),Valid,20.09.2013,PCB-101
+671,PCB_101 (precip),Valid,20.09.2013,PCB-101
+672,PCB_101 (precip+dry_dep),Valid,20.09.2013,PCB-101
+673,PCB_114 (air+aerosol),Valid,20.09.2013,PCB-114
+674,PCB_118 (air+aerosol),Valid,20.09.2013,PCB-118
+675,PCB_118 (precip),Valid,20.09.2013,PCB-118
+676,PCB_118 (precip+dry_dep),Valid,20.09.2013,PCB-118
+677,PCB_138 (air+aerosol),Valid,20.09.2013,PCB-138
+678,PCB_138 (precip+dry_dep),Valid,20.09.2013,PCB-138
+679,PCB_141 (air+aerosol),Valid,20.09.2013,PCB-141
+680,PCB_153 (air+aerosol),Valid,20.09.2013,PCB-153
+681,PCB_153 (precip),Valid,20.09.2013,PCB-153
+682,PCB_153 (precip+dry_dep),Valid,20.09.2013,PCB-153
+683,PCB_157 (air+aerosol),Valid,20.09.2013,PCB-157
+684,PCB_167 (air+aerosol),Valid,20.09.2013,PCB-167
+685,PCB_170 (air+aerosol),Valid,20.09.2013,PCB-170
+686,PCB_180 (air+aerosol),Valid,20.09.2013,PCB-180
+687,PCB_180 (precip),Valid,20.09.2013,PCB-180
+688,PCB_180 (precip+dry_dep),Valid,20.09.2013,PCB-180
+689,PCB_183 (air+aerosol),Valid,20.09.2013,PCB-183
+690,PCB_187 (air+aerosol),Valid,20.09.2013,PCB-187
+691,PCB_189 (air+aerosol),Valid,20.09.2013,PCB-189
+692,PCB_194 (air+aerosol),Valid,20.09.2013,PCB-194
+693,PCB_206 (air+aerosol),Valid,20.09.2013,PCB-206
+694,PCB_209 (air+aerosol),Valid,20.09.2013,PCB-209
+695,PCB_28 (air+aerosol),Valid,20.09.2013,PCB-28
+696,PCB_28 (precip),Valid,20.09.2013,PCB-28
+697,PCB_28 (precip+dry_dep),Valid,20.09.2013,PCB-28
+698,PCB_33 (air+aerosol),Valid,20.09.2013,PCB-33
+699,PCB_37 (air+aerosol),Valid,20.09.2013,PCB-37
+700,PCB_47 (air+aerosol),Valid,20.09.2013,PCB-47
+701,PCB_52 (air+aerosol),Valid,20.09.2013,PCB-52
+702,PCB_52 (precip),Valid,20.09.2013,PCB-52
+703,PCB_52 (precip+dry_dep),Valid,20.09.2013,PCB-52
+704,PCB_60 (air+aerosol),Valid,20.09.2013,PCB-60
+705,PCB_66 (air+aerosol),Valid,20.09.2013,PCB-66
+706,PCB_74 (air+aerosol),Valid,20.09.2013,PCB-74
+707,PCB_99 (air+aerosol),Valid,20.09.2013,PCB-99
+708,PCB_122 (air+aerosol),Valid,20.09.2013,PCB_122
+709,PCB_123 (air+aerosol),Valid,20.09.2013,PCB_123
+710,PCB_128 (air+aerosol),Valid,20.09.2013,PCB_128
+711,PCB_138 (precip),Valid,20.09.2013,PCB_138
+712,phenanthrene (air+aerosol),Valid,20.09.2013,Phenanthrene
+713,phenanthrene (precip),Valid,20.09.2013,Phenanthrene
+714,phenanthrene (precip+dry_dep),Valid,20.09.2013,Phenanthrene
+715,pyrene (air+aerosol),Valid,20.09.2013,Pyrene
+716,pyrene (precip),Valid,20.09.2013,Pyrene
+717,pyrene (precip+dry_dep),Valid,20.09.2013,Pyrene
+719,sulphate (precip),Valid,20.09.2013,SO4--
+720,sulphate_corrected (precip),Valid,20.09.2013,SO4-- corr
+723,titanium (precip),Valid,20.09.2013,TI
+728,vanadium (precip),Valid,20.09.2013,Vanadium
+729,alpha_HCH (air+aerosol),Valid,20.09.2013,alpha-HCH
+730,alpha_HCH (precip),Valid,20.09.2013,alpha-HCH
+731,alpha_HCH (precip+dry_dep),Valid,20.09.2013,alpha-HCH
+732,beta_HCH (air+aerosol),Valid,20.09.2013,beta-HCH
+733,beta_HCH (precip),Valid,20.09.2013,beta-HCH
+734,cis_CD (air+aerosol),Valid,20.09.2013,cis-CD
+735,cis_CD (precip),Valid,20.09.2013,cis-CD
+736,cis_NO (air+aerosol),Valid,20.09.2013,cis-NO
+737,lindane (air+aerosol),Valid,20.09.2013,gamma-HCH
+738,lindane (precip+dry_dep),Valid,20.09.2013,gamma-HCH
+739,lindane (precip),Valid,20.09.2013,gamma-HCH
+741,op_DDD (precip),Valid,20.09.2013,"o,p'-DDD"
+742,op_DDE (precip),Valid,20.09.2013,"o,p'-DDE"
+743,op_DDT (precip),Valid,20.09.2013,"o,p'-DDT"
+744,op_DDD (air+aerosol),Valid,20.09.2013,"o,p'-DDD"
+745,op_DDE (air+aerosol),Valid,20.09.2013,"o,p'-DDE"
+746,op_DDT (air+aerosol),Valid,20.09.2013,"o,p'-DDT"
+747,pp_DDD (precip),Valid,20.09.2013,"p,p'-DDD"
+748,pp_DDE (precip),Valid,20.09.2013,"p,p'-DDE"
+749,pp_DDT (precip),Valid,20.09.2013,"p,p'-DDT"
+750,pp_DDD (air+aerosol),Valid,20.09.2013,"p,p'-DDD"
+751,pp_DDE (air+aerosol),Valid,20.09.2013,"p,p'-DDE"
+752,pp_DDT (air+aerosol),Valid,20.09.2013,"p,p'-DDT"
+753,precipitation_amount (precip),Valid,20.09.2013,precip_amount
+754,precipitation_amount_off (precip),Valid,20.09.2013,precip_amount_off
+755,trans_CD (air+aerosol),Valid,20.09.2013,trans-CD
+756,trans_CD (precip),Valid,20.09.2013,trans-CD
+757,trans_NO (air+aerosol),Valid,20.09.2013,trans-NO
+758,trans_NO (precip),Valid,20.09.2013,trans_NO
+759,Benzo(j)fluoranthene (precip),Valid,20.09.2013,Benzo(j)fluoranthene
+760,Benzo(j)fluoranthene (precip+dry_dep),Valid,20.09.2013,Benzo(j)fluoranthene
+761,Benzo(j)fluorene (air+aerosol),Valid,20.09.2013,Benzo(j)fluorene
+762,Benzo(j)fluoranthene (air+aerosol),Valid,20.09.2013,Benzo(j)fluoranthene
+763,Dibenzo(ah)anthracene (air+aerosol),Valid,20.09.2013,Dibenzo(ah)anthracene
+771,Elemental carbon (aerosol),Valid,20.09.2013,EC
+772,Organic carbon (aerosol),Valid,20.09.2013,OC
+773,alpha-Endosulfan (air+aerosol),Valid,13.12.2018,alpha-Endosulfan
+774,beta-Endosulfan (air+aerosol),Valid,13.12.2018,beta-Endosulfan
+775,Endosulfan sulfate (air+aerosol),Valid,13.12.2018,Endosulfan sulfate
+776,DCMU (air+aerosol),Valid,13.12.2018,DCMU
+777,Atrazine (air+aerosol),Valid,13.12.2018,Atrazine
+778,Isoproturon (air+aerosol),Valid,13.12.2018,Isoproturon
+779,Heptachlor (air+aerosol),Valid,13.12.2018,Heptachlor
+780,Aldrin (air+aerosol),Valid,13.12.2018,Aldrin
+1012,Lead in PM2.5 (aerosol),Valid,20.09.2013,Pb in PM2.5
+1013,Mercury in PM2.5 (aerosol),Valid,20.09.2013,Hg in PM2.5
+1014,Cadmium in PM2.5 (aerosol),Valid,20.09.2013,Cd in PM2.5
+1015,Nickel in PM2.5 (aerosol),Valid,20.09.2013,Ni in PM2.5
+1016,Chromium in PM2.5 (aerosol),Valid,20.09.2013,Cr in PM2.5
+1017,Manganese in PM2.5 (aerosol),Valid,20.09.2013,Mn in PM2.5
+1018,Arsenic in PM2.5 (aerosol),Valid,20.09.2013,As in PM2.5
+1029,Benzo(a)pyrene in PM2.5 (aerosol),Valid,20.09.2013,BaP in PM2.5
+1045,Ammonium in PM2.5 (aerosol),Valid,20.09.2013,NH4+ in PM2.5
+1046,Nitrate in PM2.5 (aerosol),Valid,20.09.2013,NO3- in PM2.5
+1047,sulphate in PM2.5 (aerosol),Valid,20.09.2013,SO42- in PM2.5
+1048,Selenium in PM2.5 (aerosol),Valid,20.09.2013,Se in PM2.5
+1049,Vanedium in PM2.5 (aerosol),Valid,20.09.2013,V in PM2.5
+1063,Zinc in PM2.5 (aerosol),Valid,20.09.2013,Zn in PM2.5
+1064,Cobalt in PM2.5 (aerosol),Valid,20.09.2013,Co in PM2.5
+1065,Iron in PM2.5 (aerosol),Valid,20.09.2013,Fe in PM2.5
+1073,Copper in PM2.5 (aerosol),Valid,20.09.2013,Cu in PM2.5
+1129,Benzo(a)pyrene in PM2.5 (air+aerosol),Valid,20.09.2013,BaP in PM2.5
+1406,Chrysene in PM2.5 (aerosol),Valid,16.08.2024,Chrysene in PM2.5 (aerosol)
+1419,Dibenzo(ah)anthracene in PM2.5 (aerosol),Valid,20.09.2013,Dibenzo(ah)anthracene in PM2.5
+1606,Anthracene in PM2.5 (aerosol),Valid,16.08.2024,Anthracene in PM2.5 (aerosol)
+1610,Benzo(a)anthracene in PM2.5 (aerosol),Valid,20.09.2013,Benzo(a)anthracene in PM2.5
+1616,Benzo(b)fluoranthene in PM2.5 (aerosol),Valid,16.08.2024,Benzo(b)fluoranthene in PM2.5 (aerosol)
+1617,Benzo(b)fluoranthene in PM2.5 …,Valid,20.09.2013,Benzo(b)fluoranthene in PM2.5
+1623,Benzo(ghi)perylene in PM2.5 (aerosol),Valid,16.08.2024,Benzo(ghi)perylene in PM2.5 (aerosol)
+1626,Benzo(k)fluoranthene in PM2.5 (aerosol),Valid,20.09.2013,Benzo(k)fluoranthene in PM2.5
+1629,calcium in PM2.5 (aerosol),Valid,20.09.2013,Ca2+ in PM2.5
+1631,chloride in PM2.5 (aerosol),Valid,20.09.2013,Cl- in PM2.5
+1643,Fluoranthene in PM2.5 (aerosol),Valid,16.08.2024,Fluoranthene in PM2.5 (aerosol)
+1655,indeno_123cd_pyrene in PM2.5 (aerosol),Valid,20.09.2013,"Indeno-(1,2,3-cd)pyrene in PM2.5"
+1657,potassium in PM2.5 (aerosol),Valid,20.09.2013,K+ in PM2.5
+1659,magnesium in PM2.5 (aerosol),Valid,20.09.2013,Mg2+ in PM2.5
+1668,sodium in PM2.5 (aerosol),Valid,20.09.2013,Na+  in PM2.5
+1712,Phenanthrene in PM2.5 (aerosol),Valid,16.08.2024,Phenanthrene in PM2.5 (aerosol)
+1715,Pyrene in PM2.5 (aerosol),Valid,16.08.2024,Pyrene in PM2.5 (aerosol)
+1759,Benzo(j)fluoranthene in PM2.5 (aerosol),Valid,20.09.2013,Benzo(j)fluoranthene in PM2.5
+1771,Elemental carbon in PM2.5 (aerosol),Valid,20.09.2013,EC in PM2.5
+1772,Organic carbon in PM2.5 (aerosol),Valid,20.09.2013,OC in PM2.5
+2012,Lead (precip),Valid,20.09.2013,Pb
+2013,Mercury (precip),Valid,20.09.2013,Hg
+2014,Cadmium (precip),Valid,20.09.2013,Cd
+2015,Nickel (precip),Valid,20.09.2013,Ni
+2016,Chromium (precip),Valid,20.09.2013,Cr
+2017,Manganese (precip),Valid,20.09.2013,Mn
+2018,Arsenic (precip),Valid,20.09.2013,As
+2044,Total nitrogen (precip),Valid,05.04.2024,NT
+2063,Zinc (precip),Valid,20.09.2013,Zn
+2064,Cobalt (precip),Valid,20.09.2013,Co
+2065,Iron (precip),Valid,20.09.2013,Fe
+2073,Copper (precip),Valid,20.09.2013,Cu
+2076,acidity(pH) (precip),Valid,20.09.2013,pH
+2380,"Benzo(b,j,k)fluoranthene (precip)",Valid,20.09.2013,"Benzo(b,j,k)fluoranthene"
+2770,phosphate (precip),Valid,20.09.2013,PO43-
+2771,Total phosphorus (precip),Valid,27.03.2020,TP
+2861,PFBA (precip),Valid,13.12.2018,PFBA
+2862,PFPeA (precip),Valid,13.12.2018,PFPeA
+2863,PFHxA (precip),Valid,13.12.2018,PFHxA
+2864,PFHpA (precip),Valid,13.12.2018,PFHpA
+2865,PFOA (precip),Valid,13.12.2018,PFOA
+2866,PFNA (precip),Valid,13.12.2018,PFNA
+2867,PFDA (precip),Valid,13.12.2018,PFDA
+2868,PFUnDA (precip),Valid,13.12.2018,PFUnDA
+2871,PFBS (precip),Valid,13.12.2018,PFBS
+2872,PFHxS (precip),Valid,13.12.2018,PFHxS
+2873,PFOSA (precip),Valid,13.12.2018,PFOSA
+2874,6:2-FTS (precip),Valid,13.12.2018,6:2-FTS
+2875,PFOS (precip),Valid,13.12.2018,PFOS
+2876,PFDS (precip),Valid,13.12.2018,PFDS
+3012,Lead in TSP (aerosol),Valid,20.09.2013,Pb in TSP
+3013,Mercury in TSP (aerosol),Valid,20.09.2013,Hg in TSP
+3014,Cadmium in TSP (aerosol),Valid,20.09.2013,Cd in TSP
+3015,Nickel in TSP (aerosol),Valid,20.09.2013,Ni in TSP
+3016,Chromium in TSP (aerosol),Valid,20.09.2013,Cr in TSP
+3017,Manganese in TSP (aerosol),Valid,20.09.2013,Mn in TSP
+3018,Arsenic in TSP (aerosol),Valid,20.09.2013,As in TSP
+3063,Zinc in TSP (aerosol),Valid,20.09.2013,Zn in TSP
+3073,Copper in TSP (aerosol),Valid,20.09.2013,Cu in TSP
+3631,chloride in TSP (aerosol),Valid,20.09.2013,Cl- in TSP
+3668,sodium in TSP (aerosol),Valid,20.09.2013,Na+  in TSP
+4013,Elemental Gaseous Mercury (air+aerosol),Valid,20.09.2013,Hg0
+4330,PCB_105 (air+aerosol),Valid,20.09.2013,PCB-105
+4336,PCB_149 (air+aerosol),Valid,20.09.2013,PCB-149
+4339,PCB_156 (air+aerosol),Valid,20.09.2013,PCB-156
+4341,PCB_18 (air+aerosol),Valid,20.09.2013,PCB-18
+4347,PCB_31 (air+aerosol),Valid,20.09.2013,PCB-31
+4406,chrysene (air+aerosol),Valid,20.09.2013,Chrysene
+4407,chrysene_triphenylene (air+aerosol),Valid,20.09.2013,Chrysene + Triphenylene
+4813,Total gaseous mercury (air+aerosol),Valid,20.09.2013,Hg0 + Hg-reactive
+4821,TCDD (air+aerosol),Valid,13.12.2018,TCDD
+4822,CDD1N (air+aerosol),Valid,13.12.2018,CDD1N
+4823,CDD4X (air+aerosol),Valid,13.12.2018,CDD4X
+4824,CDD6X (air+aerosol),Valid,13.12.2018,CDD6X
+4825,CDD9X (air+aerosol),Valid,13.12.2018,CDD9X
+4826,CDD6P (air+aerosol),Valid,13.12.2018,CDD6P
+4827,CDDO (air+aerosol),Valid,13.12.2018,CDDO
+4841,CDF2T (air+aerosol),Valid,13.12.2018,CDF2T
+4842,CDFDN (air+aerosol),Valid,13.12.2018,CDFDN
+4843,CDF2N (air+aerosol),Valid,13.12.2018,CDF2N
+4844,CDFDX (air+aerosol),Valid,13.12.2018,CDFDX
+4845,CDF6X (air+aerosol),Valid,13.12.2018,CDF6X
+4846,CDF9X (air+aerosol),Valid,13.12.2018,CDF9X
+4847,CDF4X (air+aerosol),Valid,13.12.2018,CDF4X
+4848,CDF6P (air+aerosol),Valid,13.12.2018,CDF6P
+4849,CDF9P (air+aerosol),Valid,13.12.2018,CDF9P
+4850,CDFO (air+aerosol),Valid,13.12.2018,CDFO
+4851,CDFX1 (air+aerosol),Valid,13.12.2018,CDFX1
+4852,CDFP2 (air+aerosol),Valid,13.12.2018,CDFP2
+4861,PFBA (air+aerosol),Valid,13.12.2018,PFBA
+4862,PFPeA (air+aerosol),Valid,13.12.2018,PFPeA
+4863,PFHxA (air+aerosol),Valid,13.12.2018,PFHxA
+4864,PFHpA (air+aerosol),Valid,13.12.2018,PFHpA
+4865,PFOA (air+aerosol),Valid,13.12.2018,PFOA
+4866,c9 (air+aerosol),Valid,13.12.2018,PFNA
+4867,PFDA (air+aerosol),Valid,13.12.2018,PFDA
+4868,PFUnDA (air+aerosol),Valid,13.12.2018,PFUnDA
+4871,PFBS (air+aerosol),Valid,13.12.2018,PFBS
+4872,PFHxS (air+aerosol),Valid,13.12.2018,PFHxS
+4873,PFOSA (air+aerosol),Valid,13.12.2018,PFOSA
+4874,6:2-FTS (air+aerosol),Valid,13.12.2018,6:2-FTS
+4875,PFOS (air+aerosol),Valid,13.12.2018,PFOS
+4876,PFDS (air+aerosol),Valid,13.12.2018,PFDS
+4901,BDE47 (air+aerosol),Valid,13.12.2018,BDE47
+4902,BDE85 (air+aerosol),Valid,13.12.2018,BDE85
+4903,BDE99 (air+aerosol),Valid,13.12.2018,BDE99
+4904,BDE100 (air+aerosol),Valid,13.12.2018,BDE100
+4905,BDE153 (air+aerosol),Valid,13.12.2018,BDE153
+4906,BDE154 (air+aerosol),Valid,13.12.2018,BDE154
+4907,BDE209 (air+aerosol),Valid,13.12.2018,BDE209
+4908,SCCP (air+aerosol),Valid,13.12.2018,SCCP
+4909,MCCP (air+aerosol),Valid,13.12.2018,MCCP
+4910,HBCD (air+aerosol),Valid,13.12.2018,HBCD
+4911,HBB (air+aerosol),Valid,13.12.2018,HBB
+4912,PBT (air+aerosol),Valid,13.12.2018,PBT
+4913,PBEB (air+aerosol),Valid,13.12.2018,PBEB
+4914,α-DBE-DBCH (air+aerosol),Valid,13.12.2018,α-DBE-DBCH
+4915,β-DBE-DBCH (air+aerosol),Valid,13.12.2018,β-DBE-DBCH
+4916,BEH-TEBP (air+aerosol),Valid,13.12.2018,BEH-TEBP
+4917,BTBPT (air+aerosol),Valid,13.12.2018,BTBPT
+4918,EH-TBB (air+aerosol),Valid,13.12.2018,EH-TBB
+4919,Syn-DP (air+aerosol),Valid,13.12.2018,Syn-DP
+4920,Anti-DP (air+aerosol),Valid,13.12.2018,Anti-DP
+4921,DBDPE (air+aerosol),Valid,13.12.2018,DBDPE
+4922,TBP (air+aerosol),Valid,13.12.2018,TBP
+5012,Lead in PM10 (aerosol),Valid,20.09.2013,Pb in PM10
+5013,Mercury in PM10 (aerosol),Valid,20.09.2013,Hg in PM10
+5014,Cadmium in PM10 (aerosol),Valid,20.09.2013,Cd in PM10
+5015,Nickel in PM10 (aerosol),Valid,20.09.2013,Ni in PM10
+5016,Chromium in PM10 (aerosol),Valid,20.09.2013,Cr in PM10
+5017,Manganese in PM10 (aerosol),Valid,20.09.2013,Mn in PM10
+5018,Arsenic in PM10 (aerosol),Valid,20.09.2013,As in PM10
+5029,Benzo(a)pyrene in PM10 (aerosol),Valid,20.09.2013,BaP in PM10
+5045,Ammonium in PM10 (aerosol),Valid,20.09.2013,NH4+ in PM10
+5046,Nitrate in PM10 (aerosol),Valid,20.09.2013,NO3- in PM10
+5047,sulphate in PM10 (aerosol),Valid,20.09.2013,SO42-  in PM10
+5048,Selenium in PM10 (aerosol),Valid,20.09.2013,Se in PM10
+5049,Vanedium in PM10 (aerosol),Valid,20.09.2013,V in PM10
+5060,Tin in PM10 (aerosol),Valid,17.03.2016,Sn in PM10
+5063,Zinc in PM10 (aerosol),Valid,20.09.2013,Zn in PM10
+5064,Cobalt in PM10 (aerosol),Valid,20.09.2013,Co in PM10
+5065,Iron in PM10 (aerosol),Valid,20.09.2013,Fe in PM10
+5073,Copper in PM10 (aerosol),Valid,20.09.2013,Cu in PM10
+5129,Benzo(a)pyrene in PM10 (air+aerosol),Valid,20.09.2013,BaP in PM10
+5301,1-Methyl anthracene in PM10 …,Valid,31.07.2014,1-Methyl anthracene in PM10
+5364,Anthanthrene in PM10 (aerosol),Valid,31.07.2014,Anthanthrene in PM10
+5380,"Benzo(b,j,k)fluoranthene in PM10 …",Valid,20.09.2013,"Benzo(b,j,k)fluorantheneInPM1"
+5381,Benzo(e)pyrene in PM10 (aerosol),Valid,31.07.2014,Benzo(e)pyrene in PM10
+5382,Benzo(k+j)fluoranthene in PM10 (aerosol),Valid,22.04.2022,Benzo(k+j)fluoranthene in PM10
+5406,Chrysene in PM10 (aerosol),Valid,31.07.2014,Chrysene in PM10
+5415,Coronene in PM10 (aerosol),Valid,31.07.2014,Coronene in PM10
+5417,"Cyclopenta(c,d)pyrene in PM10 (aerosol)",Valid,31.07.2014,"Cyclopenta(c,d)pyrene in PM10"
+5418,Dibenzo(ac+ah)anthracene in PM10 …,Valid,10.12.2013,Dibenzo(ac+ah)anthracene in PM10
+5419,Dibenzo(ah)anthracene in PM10 (aerosol),Valid,20.09.2013,Dibenzo(ah)anthracene in PM10
+5480,"Benzo(b,j)fluoranthene in PM10 (aerosol)",Valid,03.10.2013,"Benzo(b,j)fluorantheneinPM10"
+5488,Perylene in PM10 (aerosol),Valid,31.07.2014,Perylene in PM10
+5521,4.5-Methylene phenanthrene in PM10 …,Valid,31.07.2014,4.5-Methylene phenanthrene in PM10
+5522,5-Methyl Chrysene in PM10 (aerosol),Valid,31.07.2014,5-Methyl Chrysene in PM10
+5523,9-Methyl anthracene in PM10 …,Valid,31.07.2014,9-Methyl anthracene in PM10
+5524,"Benzo(b)naphtho(2,1-d)thiophene in PM10 …",Valid,31.07.2014,"Benzo(b)naphtho(2,1-d)thiophene in PM10"
+5525,Benzo(c)phenanthrene in PM10 (aerosol),Valid,31.07.2014,Benzo(c)phenanthrene in PM10
+5526,Cholanthrene in PM10 (aerosol),Valid,31.07.2014,Cholanthrene in PM10
+5527,Dibenzo(ac)anthracene in PM10 (aerosol),Valid,31.07.2014,Dibenzo(ac)anthracene in PM10
+5528,Dibenzo(al)pyrene in PM10 (aerosol),Valid,31.07.2014,Dibenzo(al)pyrene in PM10
+5580,Benzo(b+j)fluoranthene in PM10 …,Valid,31.07.2014,Benzo(b+j)fluoranthene in PM10
+5606,Anthracene in PM10 (aerosol),Valid,16.06.2016,Anthracene in PM10 (aerosol)
+5609,Benzo(a)anthracene in PM10 (air+aerosol),Valid,20.09.2013,Benzo(a)anthracene in PM10
+5610,Benzo(a)anthracene in PM10 (aerosol),Valid,20.09.2013,Benzo(a)anthracene in PM10
+5616,Benzo(b)fluoranthene in PM10 …,Valid,20.09.2013,Benzo(b)fluoranthene in PM10
+5617,Benzo(b)fluoranthene in PM10 (aerosol),Valid,20.09.2013,Benzo(b)fluoranthene in PM10
+5622,5-Methyl Chrysene in PM10 (air+aerosol),Valid,31.07.2014,5-Methyl Chrysene in PM10
+5623,Benzo(ghi)perylene in PM10 (aerosol),Valid,31.07.2014,Benzo(ghi)perylene in PM10
+5624,"Benzo(b)naphtho(2,1-d)thiophene in PM10 …",Valid,31.07.2014,"Benzo(b)naphtho(2,1-d)thiophene in PM10"
+5625,Benzo(k)fluoranthene in PM10 …,Valid,20.09.2013,Benzo(k)fluoranthene in PM10
+5626,Benzo(k)fluoranthene in PM10 (aerosol),Valid,20.09.2013,Benzo(k)fluoranthene in PM10
+5627,Dibenzo(ac)anthracene in PM10 …,Valid,31.07.2014,Dibenzo(ac)anthracene in PM10
+5628,Dibenzo(al)pyrene in PM10 (air+aerosol),Valid,31.07.2014,Dibenzo(al)pyrene in PM10
+5629,calcium in PM10 (aerosol),Valid,20.09.2013,Ca2+ in PM10
+5631,chloride in PM10 (aerosol),Valid,20.09.2013,Cl- in PM10
+5633,Dibenzo(ah+ac)anthracene in PM10 …,Valid,31.07.2014,Dibenzo(ah+ac)anthracene in PM10
+5636,Dibenzo(ae)pyrene in PM10 (aerosol),Valid,31.07.2014,Dibenzo(ae)pyrene in PM10
+5637,Dibenzo(ah)pyrene in PM10 (aerosol),Valid,31.07.2014,Dibenzo(ah)pyrene in PM10
+5639,Dibenzo(ai)pyrene in PM10 (aerosol),Valid,31.07.2014,Dibenzo(ai)pyrene in PM10
+5643,Fluoranthene in PM10 (aerosol),Valid,16.06.2016,Fluoranthene in PM10 (aerosol)
+5654,indeno_123cd_pyrene in PM10 …,Valid,20.09.2013,"Indeno-(1,2,3-cd)pyrene in PM"
+5655,indeno_123cd_pyrene in PM10 (aerosol),Valid,20.09.2013,"Indeno-(1,2,3-cd)pyrene in PM"
+5657,potassium in PM10 (aerosol),Valid,20.09.2013,K+ in PM10
+5659,magnesium in PM10 (aerosol),Valid,20.09.2013,Mg2+ in PM10
+5668,sodium in PM10 (aerosol),Valid,20.09.2013,Na+  in PM10
+5712,Phenanthrene in PM10 (aerosol),Valid,16.06.2016,Phenanthrene in PM10 (aerosol)
+5715,Pyrene in PM10 (aerosol),Valid,16.06.2016,Pyrene in PM10 (aerosol)
+5725,Benzo(c)phenanthrene in PM10 …,Valid,31.07.2014,Benzo(c)phenanthrene in PM10
+5733,Dibenzo(ah+ac)anthracene in PM10 …,Valid,31.07.2014,Dibenzo(ah+ac)anthracene in PM10
+5759,Benzo(j)fluoranthene in PM10 (aerosol),Valid,20.09.2013,Benzo(j)fluoranthene in PM10
+5762,Benzo(j)fluoranthene in PM10 …,Valid,20.09.2013,Benzo(j)fluoranthene in PM10
+5763,Dibenzo(ah)anthracene in PM10 …,Valid,20.09.2013,Dibenzo(ah)anthracene in PM10
+5771,Elemental carbon in PM10 (aerosol),Valid,20.09.2013,EC in PM10
+5772,Organic carbon in PM10 (aerosol),Valid,20.09.2013,OC in PM10
+6001,Particulate matter < 2.5 µm (aerosol),Valid,20.09.2013,PM2.5
+6002,Particulate matter < 1 µm (aerosol),Valid,20.09.2013,PM1
+6003,Ultra Fine Particles (UFPs) -  …,Valid,24.03.2022,UFPs
+6005,1-Butene (air),Valid,20.09.2013,H2C=CH-CH2-CH3
+6006,trans-2-Butene (air),Valid,20.09.2013,trans-H3C-CH=CH-CH3
+6007,cis-2-Butene (air),Valid,20.09.2013,cis-H3C-CH=CH-CH3
+6008,1-Pentene (air),Valid,20.09.2013,H2C=CH-CH2-CH2-CH3
+6009,2-Pentene (air),Valid,20.09.2013,H3C-HC=CH-CH2-CH3
+6011,"1,2,4-Trimethylbenzene (air)",Valid,20.09.2013,"1,2,4-C6H3(CH3)3"
+6012,"1,2,3-Trimethylbenzene (air)",Valid,20.09.2013,"1,2,3-C6H3(CH3)3"
+6013,"1,3,5-Trimethylbenzene (air)",Valid,20.09.2013,"1,3,5-C6H3(CH3)3"
+6015,Benzo(a)pyrene (air+aerosol),Valid,20.09.2013,BaP
+6016,1-Hexene (air),Valid,29.03.2016,C6H12
+6017,Butyl acetate (air),Valid,27.03.2020,C6H12O2
+6380,"Benzo(b,j,k)fluoranthene in PM10 …",Valid,20.09.2013,"Benzo(b,j,k)fluorantheneInPM1"
+6382,Benzo(k+j)fluoranthene in PM10 …,Valid,22.04.2022,Benzo(k+j)fluoranthene
+6400,Volatile PM10,Valid,11.08.2015,VPM10
+6401,Non-volatile PM10,Valid,11.08.2015,NVPM10
+6410,Volatile PM2.5,Valid,11.08.2015,VPM2.5
+6411,Non-volatile PM2.5,Valid,11.08.2015,NVPM2.5
+6420,Volatile PM1,Valid,11.08.2015,VPM1
+6421,Non-volatile PM1,Valid,11.08.2015,NVPM1
+7012,Lead (precip+dry_dep),Valid,20.09.2013,Pb
+7013,Mercury (precip+dry_dep),Valid,20.09.2013,Hg
+7014,Cadmium (precip+dry_dep),Valid,20.09.2013,Cd
+7015,Nickel (precip+dry_dep),Valid,20.09.2013,Ni
+7016,Chromium (precip+dry_dep),Valid,29.03.2016,Cr
+7018,Arsenic (precip+dry_dep),Valid,20.09.2013,As
+7029,Benzo(a)pyrene (precip+dry_dep),Valid,20.09.2013,BaP
+7063,Zinc (precip+dry_dep),Valid,29.03.2016,Zn
+7073,Cooper (precip+dry_dep),Valid,17.03.2016,Cu
+7301,1-Methyl anthracene (precip+dry_dep),Valid,31.07.2014,1-Methyl anthracene
+7309,1-Methyl Naphthalene (precip+dry_dep),Valid,31.07.2014,1-Methyl Naphthalene
+7310,1-Methyl phenanthrene (precip+dry_dep),Valid,31.07.2014,1-Methyl phenanthrene
+7313,2-Methyl anthracene (precip+dry_dep),Valid,31.07.2014,2-Methyl anthracene
+7315,2-Methyl Naphthalene (precip+dry_dep),Valid,31.07.2014,2-Methyl Naphthalene
+7317,2-Methyl phenanthrene (precip+dry_dep),Valid,31.07.2014,2-Methyl phenanthrene
+7351,Acenaphthene (precip+dry_dep),Valid,31.07.2014,Acenaphthene
+7352,Acenaphthylene (precip+dry_dep),Valid,31.07.2014,Acenaphthylene
+7364,Anthanthrene (precip+dry_dep),Valid,31.07.2014,Anthanthrene
+7380,"Benzo(b,j,k)fluoranthene …",Valid,20.09.2013,"Benzo(b,j,k)fluoranthene"
+7381,Benzo(e)pyrene (precip+dry_dep),Valid,31.07.2014,Benzo(e)pyrene
+7382,Benzo(k+j)fluoranthene (precip+dry_dep),Valid,22.04.2022,Benzo(k+j)fluoranthene
+7390,Biphenyl (precip+dry_dep),Valid,31.07.2014,Biphenyl
+7406,Chrysene (precip+dry_dep),Valid,31.07.2014,Chrysene
+7407,chrysene_triphenylene (precip+dry_dep),Valid,20.09.2013,Chrysene + Triphenylene
+7415,Coronene (precip+dry_dep),Valid,31.07.2014,Coronene
+7417,"Cyclopenta(c,d)pyrene",Valid,31.07.2014,"Cyclopenta(c,d)pyrene"
+7418,Dibenzo(ac+ah)anthracenes …,Valid,30.07.2014,Dibenzo(ah+ac)anthracene
+7419,Dibenzo(ah)anthracene (precip+dry_dep),Valid,20.09.2013,Dibenzo(ah)anthracene
+7435,Fluorene (precip+dry_dep),Valid,31.07.2014,Fluorene
+7465,Naphthalene (precip+dry_dep),Valid,31.07.2014,Naphthalene
+7480,"Benzo(b,j)fluoranthene (precip+dry_dep)",Valid,30.07.2014,Benzo(b+j)fluoranthene
+7488,Perylene (precip+dry_dep),Valid,31.07.2014,Perylene
+7521,4.5-Methylene phenanthrene …,Valid,31.07.2014,4.5-Methylene phenanthrene
+7522,5-Methyl Chrysene (precip+dry_dep),Valid,31.07.2014,5-Methyl Chrysene
+7523,9-Methyl anthracene (precip+dry_dep),Valid,31.07.2014,9-Methyl anthracene
+7524,"Benzo(b)naphtho(2,1-d)thiophene …",Valid,31.07.2014,"Benzo(b)naphtho(2,1-d)thiophene"
+7525,Benzo(c)phenanthrene (precip+dry_dep),Valid,31.07.2014,Benzo(c)phenanthrene
+7526,Cholanthrene (precip+dry_dep),Valid,31.07.2014,Cholanthrene
+7527,Dibenzo(ac)anthracene (precip+dry_dep),Valid,31.07.2014,Dibenzo(ac)anthracene
+7528,Dibenzo(al)pyrene (precip+dry_dep),Valid,31.07.2014,Dibenzo(al)pyrene
+7636,Dibenzo(ae)pyrene (precip+dry_dep),Valid,31.07.2014,Dibenzo(ae)pyrene
+7637,Dibenzo(ah)pyrene (precip+dry_dep),Valid,31.07.2014,Dibenzo(ah)pyrene
+7639,Dibenzo(ai)pyrene (precip+dry_dep),Valid,31.07.2014,Dibenzo(ai)pyrene
+7640,Dieldrin (precip+dry_dep),Valid,13.12.2018,Dieldrin
+7734,cis-CD (precip+dry_dep),Valid,13.12.2018,cis-CD
+7750,"p,p'-DDD (precip+dry_dep)",Valid,13.12.2018,"p,p'-DDD"
+7751,"p,p'-DDE (precip+dry_dep)",Valid,13.12.2018,"p,p'-DDE"
+7752,"p,p'-DDT (precip+dry_dep)",Valid,13.12.2018,"p,p'-DDT"
+7755,trans-CD (precip+dry_dep),Valid,13.12.2018,trans-CD
+7757,trans-NO (precip+dry_dep),Valid,13.12.2018,trans-NO
+7773,alpha-Endosulfan (precip+dry_dep),Valid,13.12.2018,alpha-Endosulfan
+7774,beta-Endosulfan (precip+dry_dep),Valid,13.12.2018,beta-Endosulfan
+7775,Endosulfan sulfate (precip+dry_dep),Valid,13.12.2018,Endosulfan sulfate
+7776,DCMU (precip+dry_dep),Valid,13.12.2018,DCMU
+7777,Atrazine (precip+dry_dep),Valid,13.12.2018,Atrazine
+7778,Isoproturon (precip+dry_dep),Valid,13.12.2018,Isoproturon
+7779,Heptachlor (precip+dry_dep),Valid,13.12.2018,Heptachlor
+7780,Aldrin (precip+dry_dep),Valid,13.12.2018,Aldrin
+7781,HCB (precip+dry_dep),Valid,13.12.2018,HCB
+7821,TCDD (precip+dry_dep),Valid,13.12.2018,TCDD
+7822,CDD1N (precip+dry_dep),Valid,13.12.2018,CDD1N
+7823,CDD4X (precip+dry_dep),Valid,13.12.2018,CDD4X
+7824,CDD6X (precip+dry_dep),Valid,13.12.2018,CDD6X
+7825,CDD9X (precip+dry_dep),Valid,13.12.2018,CDD9X
+7826,CDD6P (precip+dry_dep),Valid,13.12.2018,CDD6P
+7827,CDDO (precip+dry_dep),Valid,13.12.2018,CDDO
+7841,CDF2T (precip+dry_dep),Valid,13.12.2018,CDF2T
+7842,CDFDN (precip+dry_dep),Valid,13.12.2018,CDFDN
+7843,CDF2N (precip+dry_dep),Valid,13.12.2018,CDF2N
+7844,CDFDX (precip+dry_dep),Valid,13.12.2018,CDFDX
+7845,CDF6X (precip+dry_dep),Valid,13.12.2018,CDF6X
+7846,CDF9X (precip+dry_dep),Valid,13.12.2018,CDF9X
+7847,CDF4X (precip+dry_dep),Valid,13.12.2018,CDF4X
+7848,CDF6P (precip+dry_dep),Valid,13.12.2018,CDF6P
+7849,CDF9P (precip+dry_dep),Valid,13.12.2018,CDF9P
+7850,CDFO (precip+dry_dep),Valid,13.12.2018,CDFO
+7851,CDFX1 (precip+dry_dep),Valid,13.12.2018,CDFX1
+7852,CDFP2 (precip+dry_dep),Valid,13.12.2018,CDFP2
+7901,BDE47 (precip+dry_dep),Valid,13.12.2018,BDE47
+7902,BDE85 (precip+dry_dep),Valid,13.12.2018,BDE85
+7903,BDE99 (precip+dry_dep),Valid,13.12.2018,BDE99
+7904,BDE100 (precip+dry_dep),Valid,13.12.2018,BDE100
+7905,BDE153 (precip+dry_dep),Valid,13.12.2018,BDE153
+7906,BDE154 (precip+dry_dep),Valid,13.12.2018,BDE154
+7907,BDE209 (precip+dry_dep),Valid,13.12.2018,BDE209
+7908,SCCP (precip+dry_dep),Valid,13.12.2018,SCCP
+7909,MCCP (precip+dry_dep),Valid,13.12.2018,MCCP
+7910,HBCD (precip+dry_dep),Valid,13.12.2018,HBCD
