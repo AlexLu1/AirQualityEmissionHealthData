@@ -99,30 +99,29 @@ def create_database_schema():
 def main():
     sqlDataParser = DataParser(db_params["user"],db_params["password"],db_params["host"],db_params["port"],db_params["dbname"])
     #Create Schema
-    #print("Parsing Schema.")
-    #create_database_schema()
-    #print("Schema Created successfully.")
+    print("Parsing Schema.")
+    create_database_schema()
+    print("Schema Created successfully.")
     #Parse OWID Dataset Data
-    #print("Parsing OWID Data")
-    #owidDataset = OWIDDataset(sqlDataParser)
-    #owidDataset.parseCountries()
-    #owidDataset.parseCountryInfomation()
-    #print("OWID Data parsed successfully.")
+    print("Parsing OWID Data")
+    owidDataset = OWIDDataset(sqlDataParser)
+    owidDataset.parseCountries()
+    owidDataset.parseCountryInfomation()
+    print("OWID Data parsed successfully.")
     #Parse Health Dataset
-    #print("Parsing HFA Data")
-    #wHODataset = WHOData(sqlDataParser)
-    #wHODataset.parseWHOData()
-    #print("HFA Data parsed successfully.")
+    print("Parsing HFA Data")
+    wHODataset = WHOData(sqlDataParser)
+    wHODataset.parseWHOData()
+    print("HFA Data parsed successfully.")
     #Parse EDGAR Emission data
-    #print("Parsing EDGAR Emission Data")
-    #edgarData = EDGARData(sqlDataParser)
-    #edgarData.parseEdgarData()
-    #print("EDGAR Emission Data parsed sucessfully")
-    ##Parse Air Quality Dataset
-    #print("Parsing Air Quality Data")
-    airQualityDataset = AirQualityData(sqlDataParser)
-    #airQualityDataset.parseAllAirQualityData(True,True,False)
-    airQualityDataset.parseAirQualityData(os.path.join("AirQuality","download"))
+    print("Parsing EDGAR Emission Data")
+    edgarData = EDGARData(sqlDataParser)
+    edgarData.parseEdgarData()
+    print("EDGAR Emission Data parsed sucessfully")
+    #Parse Air Quality Dataset
+    print("Parsing Air Quality Data")
+    airQualityDataset = AirQualityData(sqlDataParser,db_params)
+    airQualityDataset.parseAllAirQualityData(True,True,False)
     print("Air Quality Data Parsed successfully")
 
 

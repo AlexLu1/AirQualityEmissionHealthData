@@ -1,4 +1,4 @@
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor, as_completed
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -9,7 +9,8 @@ class AirQualityData():
     """
     Class Responsible for parsing Air Quality data.
     """
-    def __init__(self,dataParser:DataParser):
+    def __init__(self,dataParser:DataParser,db_params):
+        self.db_params = db_params
         #We need a pollutant mapping from type to notation
         pollutant = pd.read_csv(os.path.join("AirQuality","chemicalVocabulary.csv"))
         pollutant = pollutant[["chemicalID","chemicalCode"]]
@@ -43,9 +44,10 @@ class AirQualityData():
         #download parquet files urls
         self.downloadParquetUrls(dataset1,dataset2,dataset3)
         print("Parquet file urls downloaded successfully.")
-        #download data
-        self.download_parquet_files(os.path.join("AirQuality","download"))
-        self.parseAirQualityData(os.path.join("AirQuality","download"))
+        #download data with 20 threads
+        self.download_parquet_files(os.path.join("AirQuality","download"),20)
+        #parse data with 4 processes
+        self.parseAirQualityData(os.path.join("AirQuality","download"),4)
     
     def downloadParquetUrls(self,dataset1,dataset2,dataset3):
         countryCity = self.fetchCountryCityData()
@@ -167,7 +169,7 @@ class AirQualityData():
             for url in urls:
                 executor.submit(self.download_file, url,output_folder)
 
-    def parseAirQualityData(self,root_folder,max_workers=5):
+    def parseAirQualityData(self,root_folder,max_workers=10):
         for dirpath, _, filenames in os.walk(root_folder):
         #get all csv download files
             parquetFiles = [f for f in filenames if f.endswith('.parquet')]
@@ -184,18 +186,30 @@ class AirQualityData():
                 continue
             futures = []
             print(f"Parsing files from: {dirpath}")
-            with ThreadPoolExecutor(max_workers=max_workers) as executor:
+            with ProcessPoolExecutor(max_workers=max_workers) as executor:
                 for parquetFile in parquetFiles:
-                    future = executor.submit(self.parseParquetFile, os.path.join(dirpath, parquetFile), cityName, countryCodeIso2)
+                    future = executor.submit(
+                        AirQualityData.parseParquetFile,
+                        os.path.join(dirpath, parquetFile),
+                        cityName,
+                        countryCodeIso2,
+                        self.db_params,
+                        self.pollutantMapUnit,
+                        self.pollutantMapNotation,
+                        self.countryCodeMap
+                    )
                     futures.append(future)
+
             for future in as_completed(futures):
                 try:
-                    future.result() 
+                    future.result()  # Wait for the result or raise an exception
                 except Exception as e:
                     print(f"Caught exception while parsing air data: {e}")
 
-
-    def parseParquetFile(self,parquetFilePath,cityName,countryCodeIso2):
+    #method is static due to multi processing
+    @staticmethod
+    def parseParquetFile(parquetFilePath,cityName,countryCodeIso2,db_params,pollutantMapUnit,pollutantMapNotation,countryCodeMap):
+        sqlDataParser = DataParser(db_params["user"],db_params["password"],db_params["host"],db_params["port"],db_params["dbname"])
         airMeasurment = pd.read_parquet(parquetFilePath)
         #filter out invalid rows
         airMeasurment = airMeasurment[airMeasurment['Validity'] != -1]
@@ -215,8 +229,8 @@ class AirQualityData():
         airMeasurment["Pollutant"] = airMeasurment["Pollutant"].astype(int)
         airMeasurment["Value"] = airMeasurment["Value"].astype(float)
         #get recommendedUnit in case unit in dataset is empty (happens a lot)
-        recommendedUnit = self.pollutantMapUnit.get(airMeasurment['Pollutant'].iloc[0],"noUnitFound")
-        airMeasurment["Pollutant"] = self.pollutantMapNotation.get(airMeasurment["Pollutant"].iloc[0],"noChemicalFound")
+        recommendedUnit = pollutantMapUnit.get(airMeasurment['Pollutant'].iloc[0],"noUnitFound")
+        airMeasurment["Pollutant"] = pollutantMapNotation.get(airMeasurment["Pollutant"].iloc[0],"noChemicalFound")
         airMeasurment = airMeasurment.rename(columns={"Pollutant": "chemicalCode","Start":"date","Value":"value","Unit":"measureUnitCode"})
         #fill unit if necessary
         airMeasurment['measureUnitCode'] = airMeasurment['measureUnitCode'].fillna(recommendedUnit)
@@ -227,7 +241,7 @@ class AirQualityData():
         airMeasurment = airMeasurment[airMeasurment['value'] >= 0]
         if len(airMeasurment) == 0:
             return
-        countryCode = self.countryCodeMap.get(countryCodeIso2)
+        countryCode = countryCodeMap.get(countryCodeIso2)
         query = """
             SELECT "city_ID"
             FROM city
@@ -237,13 +251,13 @@ class AirQualityData():
             "city_name": cityName,  
             "country_code": countryCode               
         }
-        query = self.dataParser.makeCall(query,params)
+        query = sqlDataParser.makeCall(query,params)
         result = [item[0] for item in query]
         if(len(result) < 1):
             print(f"No city id for {cityName} {countryCode} found.")
             return
         airMeasurment["city_ID"] = int(result[0])
-        self.dataParser.parsePandaDFToTable(airMeasurment,"airMeasurement")
+        sqlDataParser.parsePandaDFToTable(airMeasurment,"airMeasurement")
 
     def parsePollutantData(self):
         dfChemical = pd.read_csv(os.path.join("AirQuality","chemicalVocabulary.csv"))
