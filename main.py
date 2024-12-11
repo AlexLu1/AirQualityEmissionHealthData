@@ -9,7 +9,7 @@ import os
 
 # Database connection parameters
 db_params = {
-    "dbname": "postgres",
+    "dbname": "exampleDatabase",
     "user": "postgres",
     "password": "superuser",
     "host": "localhost",
@@ -75,7 +75,7 @@ CREATE TABLE "sDRRespiratoryDisease" (
 );
 
 CREATE TABLE "airMeasurement" (
-    "airMeasurement_ID" SERIAL PRIMARY KEY,
+    "airMeasurement_ID" BIGSERIAL PRIMARY KEY,
     "date" DATE NOT NULL,
     "value" FLOAT NOT NULL,
     "city_ID" INT REFERENCES city("city_ID"),
@@ -99,29 +99,30 @@ def create_database_schema():
 def main():
     sqlDataParser = DataParser(db_params["user"],db_params["password"],db_params["host"],db_params["port"],db_params["dbname"])
     #Create Schema
-    print("Parsing Schema.")
-    create_database_schema()
-    print("Schema Created successfully.")
+    #print("Parsing Schema.")
+    #create_database_schema()
+    #print("Schema Created successfully.")
     #Parse OWID Dataset Data
-    print("Parsing OWID Data")
-    owidDataset = OWIDDataset(sqlDataParser)
-    owidDataset.parseCountries()
-    owidDataset.parseCountryInfomation()
-    print("OWID Data parsed successfully.")
+    #print("Parsing OWID Data")
+    #owidDataset = OWIDDataset(sqlDataParser)
+    #owidDataset.parseCountries()
+    #owidDataset.parseCountryInfomation()
+    #print("OWID Data parsed successfully.")
     #Parse Health Dataset
-    print("Parsing HFA Data")
-    wHODataset = WHOData(sqlDataParser)
-    wHODataset.parseWHOData()
-    print("HFA Data parsed successfully.")
+    #print("Parsing HFA Data")
+    #wHODataset = WHOData(sqlDataParser)
+    #wHODataset.parseWHOData()
+    #print("HFA Data parsed successfully.")
     #Parse EDGAR Emission data
-    print("Parsing EDGAR Emission Data")
-    edgarData = EDGARData(sqlDataParser)
-    edgarData.parseEdgarData()
-    print("EDGAR Emission Data parsed sucessfully")
-    #Parse Air Quality Dataset
-    print("Parsing Air Quality Data")
+    #print("Parsing EDGAR Emission Data")
+    #edgarData = EDGARData(sqlDataParser)
+    #edgarData.parseEdgarData()
+    #print("EDGAR Emission Data parsed sucessfully")
+    ##Parse Air Quality Dataset
+    #print("Parsing Air Quality Data")
     airQualityDataset = AirQualityData(sqlDataParser)
-    airQualityDataset.parseAllAirQualityData(True,False,False)
+    #airQualityDataset.parseAllAirQualityData(True,True,False)
+    airQualityDataset.parseAirQualityData(os.path.join("AirQuality","download"))
     print("Air Quality Data Parsed successfully")
 
 
