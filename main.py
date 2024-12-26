@@ -121,7 +121,7 @@ def main():
     #Parse Air Quality Dataset
     print("Parsing Air Quality Data")
     airQualityDataset = AirQualityData(sqlDataParser,db_params)
-    airQualityDataset.parseAllAirQualityData(True,True,False)
+    airQualityDataset.parseAllAirQualityData(True,False,False)
     print("Air Quality Data Parsed successfully")
 
 
